@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
 import dj_database_url
-from pathlib import Path
+#from pathlib import Path
 if os.path.exists("env.py"):
   import env 
 
