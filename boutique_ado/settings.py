@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
 import dj_database_url
-#from pathlib import Path
+from pathlib import Path
 if os.path.exists("env.py"):
   import env 
 
@@ -34,8 +34,8 @@ ALLOWED_HOSTS = [
    '8000-zeststudio-boutiqueadov-fr9uejtup4d.ws-eu106.gitpod.io',
    '8000-zeststudio-boutiqueadov-u9gqy7ueiwx.ws-eu107.gitpod.io',
    'localhost',
-   # os.environ.get('HEROKU_HOSTNAME'),
-   'boutique-ado-code-i-1b9e59578341.herokuapp.com',
+    os.environ.get('HEROKU_HOSTNAME'),
+   #'boutique-ado-code-i-1b9e59578341.herokuapp.com',
 ]
 
 
