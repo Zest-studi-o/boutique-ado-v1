@@ -34,6 +34,7 @@ ALLOWED_HOSTS = [
    '8000-zeststudio-boutiqueadov-fr9uejtup4d.ws-eu106.gitpod.io',
    '8000-zeststudio-boutiqueadov-u9gqy7ueiwx.ws-eu107.gitpod.io',
    'localhost',
+   'boutique-ado-code-i-1b9e59578341.herokuapp.com',
     os.environ.get('HEROKU_HOSTNAME'),
 ]
 
